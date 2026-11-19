@@ -16,4 +16,9 @@ public class MenuController : MonoBehaviour
     {
         GameManager.QuitGame();
     }
+
+    public void OnMainMenuButton()
+    {
+        GameManager.LoadMainMenu();
+    }
 }
