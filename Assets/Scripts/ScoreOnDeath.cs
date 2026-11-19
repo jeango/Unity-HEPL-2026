@@ -8,9 +8,5 @@ public class ScoreOnDeath : MonoBehaviour
     {
         GameManager.GainScore(score);
     }
-
-    public void OnDestroy()
-    {
-        ScorePoints();
-    }
+    
 }
