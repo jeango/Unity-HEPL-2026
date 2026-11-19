@@ -77,3 +77,4 @@ crashlytics-build.properties
 /Indien/Temp
 Indien/Assets/.DS_Store
 /Indien/UserSettings
+*.DS_Store
