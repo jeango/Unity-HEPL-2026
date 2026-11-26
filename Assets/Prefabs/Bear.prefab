@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7841264016158079803}
   - component: {fileID: 2499700869447360983}
   - component: {fileID: -5640037533923926370}
+  - component: {fileID: 4251867482206812891}
   m_Layer: 7
   m_Name: Bear
   m_TagString: Untagged
@@ -207,3 +208,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26dc9e8d4034a4ed9b3f618b09a3cacc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+--- !u!114 &4251867482206812891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212206722505321922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0fcbe2618b7429e935adb266293c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnKillScore
+  score: 10

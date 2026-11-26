@@ -576,6 +576,7 @@ GameObject:
   - component: {fileID: 821958194}
   - component: {fileID: 821958195}
   - component: {fileID: 821958196}
+  - component: {fileID: 821958197}
   m_Layer: 6
   m_Name: Hep L'indien
   m_TagString: Untagged
@@ -925,6 +926,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26dc9e8d4034a4ed9b3f618b09a3cacc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+--- !u!114 &821958197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821958187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8f89648a38c477db75806071540c24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!1 &1112316001
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +954,7 @@ GameObject:
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1112316002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +994,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1591653461}
-  - component: {fileID: 1591653460}
   - component: {fileID: 1591653459}
   m_Layer: 0
   m_Name: Cleaner
@@ -1036,18 +1048,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 11.590477}
   m_EdgeRadius: 0
---- !u!114 &1591653460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591653458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642245c96b04c4d82b1a5b3b81e2cde5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Damage
 --- !u!4 &1591653461
 Transform:
   m_ObjectHideFlags: 0
