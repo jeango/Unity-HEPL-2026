@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6109062194317680305}
   - component: {fileID: 7296086264322567548}
   - component: {fileID: -8728932542267149705}
+  - component: {fileID: -575844361144913498}
   m_Layer: 7
   m_Name: Bear
   m_TagString: Damageable
@@ -236,3 +237,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9793bcb4c9d8746db94432e00f3275a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -575844361144913498}
+        m_TargetAssemblyTypeName: ScoreGain, Assembly-CSharp
+        m_MethodName: GainScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-575844361144913498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975437570101321208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2eaaa11fad1e45dabed5e05ce83f634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreGain
+  score: 10

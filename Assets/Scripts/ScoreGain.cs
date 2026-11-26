@@ -1,0 +1,12 @@
+using UnityEngine;
+
+public class ScoreGain : MonoBehaviour
+{
+    public int score;
+
+    public void GainScore()
+    {
+        GameManager.score += score;
+        GameManager.UpdateHighScore();
+    }
+}
