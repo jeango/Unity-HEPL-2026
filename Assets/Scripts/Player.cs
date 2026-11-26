@@ -6,9 +6,4 @@ public class Player : MonoBehaviour
     {
         GameManager.GameOver();
     }
-
-    void OnDestroy()
-    {
-        OnDeath();
-    }
 }
