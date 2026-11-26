@@ -6,6 +6,7 @@ public class GainScore : MonoBehaviour
     
     public void ScoreGain()
     {
-        GameManager.score += score;    
+        GameManager.score += score;
+        GameManager.UpdateHighScore();
     }
 }

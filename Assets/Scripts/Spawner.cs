@@ -7,10 +7,11 @@ public class Spawner : MonoBehaviour
     
     public GameObject objectToSpawn;
     public float maxYOffset;
+    public float spawnRate;
     
     void Start()
     {
-        InvokeRepeating(nameof(Spawn), 0f, 1f);
+        InvokeRepeating(nameof(Spawn), 0f, spawnRate);
     }
 
 
